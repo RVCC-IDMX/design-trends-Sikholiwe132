@@ -1,0 +1,59 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+
+
+.grid-item {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-family: 'Pacifico',
+        cursive;
+    font-family: 'Space Grotesk',
+        sans-serif;
+}
+
+h2 {
+    margin-bottom: 10px;
+    font-family: 'Pacifico',
+        cursive;
+    font-family: 'Space Grotesk',
+        sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
